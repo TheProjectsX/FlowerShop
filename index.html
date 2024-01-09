@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Paradise</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <header>
-      <section class="welcome-section">
+      <div class="welcome-section">
         <h2 class="header-title">
           Let's make beautiful flowers a part of your life.
         </h2>
@@ -17,8 +24,9 @@
           using Lorem Ipsum is that it has a more-or-less normal distribution of
           letters.
         </p>
-        <button>Shop Now</button>
-      </section>
+        <button class="btn-primary">Shop Now</button>
+      </div>
+      <img src="assets/pngwing 10.png" alt="Header Flower Image" />
     </header>
 
     <main>
@@ -29,15 +37,15 @@
           readable content of a page when looking at its layout.
         </p>
         <div class="flowers-images">
-          <div>
+          <div class="flower-01">
             <img src="assets/pngwing 6.png" alt="Flower" />
             <p>Pink Flower Tree</p>
           </div>
-          <div>
+          <div class="flower-02">
             <img src="assets/pngwing 5.png" alt="Flower" />
             <p>Red Flower Tree</p>
           </div>
-          <div>
+          <div class="flower-03">
             <img src="assets/pngwing 7.png" alt="Flower" />
             <p>Yellow Flower Tree</p>
           </div>
@@ -48,7 +56,7 @@
         <div class="sub-delivery">
           <div>
             <img src="assets/Group 57.png" alt="Delivery Man" />
-            <p>Same Day Delivery. Click & Collect.</p>
+            <p>Same Day Delivery.</p>
           </div>
           <div>
             <img src="assets/Group 58.png" alt="Flower" />
@@ -56,7 +64,7 @@
           </div>
           <div>
             <img src="assets/Group 59.png" alt="Support" />
-            <p>24/7 Free Support</p>
+            <p>24/7 Free Support.</p>
           </div>
         </div>
       </section>
@@ -70,7 +78,7 @@
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
           </p>
-          <button>Sign Up</button>
+          <button class="btn-primary">Sign Up</button>
         </div>
         <img src="assets/pngwing 8.png" alt="Flowers" />
       </section>
@@ -90,12 +98,14 @@
       </section>
 
       <section class="subscribe">
-        <h3 class="section-title">Get The Latest Deals</h3>
-        <p class="section desc">$30 coupon for first shopping</p>
-        <form class="subscribe-form">
-          <input type="email" />
-          <button type="submit">Subscribe</button>
-        </form>
+        <div class="sub-section">
+          <h3 class="section-title">Get The Latest Deals</h3>
+          <p class="section-desc">$30 coupon for first shopping</p>
+          <form class="subscribe-form">
+            <input type="email" placeholder="Enter your Email here..." />
+            <button type="submit" class="btn-primary">Subscribe</button>
+          </form>
+        </div>
       </section>
     </main>
 
