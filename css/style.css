@@ -1,0 +1,338 @@
+/* Global CSS */
+* {
+    margin: 0;
+    padding: 0;
+    /* outline: 2px solid red; */
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Common Styles */
+header,
+section {
+    margin-bottom: 80px;
+}
+
+.featured-flowers,
+.delivery,
+.instagram,
+.subscribe {
+    padding-inline: 150px;
+}
+
+
+.btn-primary {
+    padding: 18px 38px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    outline: 0;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+}
+
+.btn-primary:active {
+    font-size: 16px;
+    padding: 20.5px 48px;
+}
+
+/* Header - Banner */
+header {
+    background-color: #e554731a;
+    padding-inline: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding-top: 80px;
+}
+
+.welcome-section {
+    max-width: 600px;
+    padding-bottom: 80px;
+}
+
+.welcome-section .header-title {
+    color: #272727;
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.welcome-section .header-desc {
+    color: #27272799;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-block: 20px;
+}
+
+
+header img {
+    width: 400px;
+}
+
+/* Featured Flowers */
+.featured-flowers {
+    text-align: center;
+}
+
+.featured-flowers .section-title {
+    color: #272727;
+    font-size: 34px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.featured-flowers .section-desc {
+    color: #272727be;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 490px;
+    margin-inline: auto;
+    margin-bottom: 40px;
+}
+
+.featured-flowers .flowers-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.featured-flowers .flowers-images div {
+    display: flex;
+    flex-direction: column;
+}
+
+.flowers-images .flower-01 img {
+    background-color: #A7216226;
+}
+
+.flowers-images .flower-02 img {
+    background-color: #0597A026;
+}
+
+.flowers-images .flower-03 img {
+    background-color: #477D1126;
+}
+
+.flowers-images img {
+    width: 192px;
+    height: 300px;
+    padding: 65px;
+    padding-bottom: 0;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flowers-images>div p {
+    padding: 20px;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-decoration-line: underline;
+    border: 8px solid;
+    border-top: 0;
+}
+
+.flowers-images .flower-01 p {
+    border-color: #A7216226;
+}
+
+.flowers-images .flower-02 p {
+    border-color: #0597A026;
+}
+
+.flowers-images .flower-03 p {
+    border-color: #477D1126;
+}
+
+/* Delivery */
+.sub-delivery {
+    background-color: #2727270D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.sub-delivery div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 33%;
+    text-align: center;
+}
+
+.sub-delivery img {
+    width: 80px;
+}
+
+.sub-delivery p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+/* Hot Deal */
+.hot-deal {
+    background-color: #E554730D;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.hot-deal div {
+    width: 500px;
+    text-align: center;
+}
+
+.hot-deal .section-title {
+    color: #272727;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.hot-deal .section-title span {
+    color: #E55473;
+}
+
+.hot-deal .section-desc {
+    color: #27272799;
+    font-size: 16px;
+    line-height: 26px;
+    margin-block: 20px;
+}
+
+/* Instagram */
+.instagram {
+    text-align: center;
+}
+
+.instagram .section-title {
+    color: #272727;
+    font-size: 34px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.instagram .section-desc {
+    color: #272727be;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 490px;
+    margin-inline: auto;
+    margin-bottom: 40px;
+}
+
+.instagram-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.instagram-images img {
+    width: 23%;
+    transition: transform 0.5s;
+}
+
+.instagram-images img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Subscribe! */
+.subscribe .sub-section {
+    background: url("../assets/Rectangle\ 9.png"), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+    padding: 100px;
+    text-align: center;
+}
+
+.subscribe .section-title {
+    color: #272727;
+    font-size: 34px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.subscribe .section-desc {
+    color: #272727be;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 490px;
+    margin-inline: auto;
+    margin-bottom: 40px;
+}
+
+.subscribe form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subscribe form input {
+    padding: 18px 25px;
+    background-color: white;
+    width: 40%;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.subscribe form input:focus {
+    border-color: #E55473;
+}
+
+/* Footer */
+footer {
+    background-color: #111010;
+    padding-block: 80px 40px;
+    text-align: center;
+}
+
+.footer-title {
+    color: white;
+    font-size: 34px;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+
+.footer-title span {
+    color: #E55473;
+}
+
+.footer-desc {
+    color: #FFFFFFE5;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 490px;
+    margin-inline: auto;
+    margin-bottom: 40px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* NOTE */
+/* Some of the "section-title" and "section-desc" styles are same. But didn't used Common class to read Clearly */
